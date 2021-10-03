@@ -1,0 +1,7 @@
+.mainDiv {
+  height: 100vh;
+}
+
+.infoContainer {
+  display: flex;
+}
