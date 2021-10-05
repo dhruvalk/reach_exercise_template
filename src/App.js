@@ -14,6 +14,11 @@ function App() {
         <RecycleInfo />
         <OtherProducts />
       </div>
+      <button
+        style={{ position: "absolute", bottom: 30, left: 5, zIndex: 999 }}
+      >
+        Show Modal
+      </button>
       <Footer />
     </div>
   );
