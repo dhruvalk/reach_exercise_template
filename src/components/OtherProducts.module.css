@@ -1,4 +1,49 @@
+
 .card {
   display: flex;
   flex: 1;
+  height: 300px;
+  width: 100%;
 }
+
+.heading{
+  font-weight:bold;
+  font-size: 20px;
+}
+
+.frame{
+  width:inherit;
+  height:inherit;
+}
+
+.gallery {
+  display:flex;
+  width:inherit;
+  height:calc(100% - 27px);
+  justify-content:space-between;
+  align-items: center;
+}
+
+img{
+  height: 80%;
+  width: auto;
+}
+
+.button{
+  height:fit-content;
+  border-radius: 15px;
+  border: none;
+  padding-inline: 10px;
+  padding-block: 5px;
+  background-color: green;
+  color: white;
+}
+
+.button:hover{
+  background-color:#54B84E;
+}
+
+.button:disabled{
+  background-color:grey;
+}
+
