@@ -24,6 +24,19 @@
   padding: 0px 25px 10px 25px;
 }
 
+.socials {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.icon {
+  height: 15px;
+  width: 15px;
+  padding-right: 5px;
+  /* background-color: red; */
+}
+
 .title {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -34,6 +47,7 @@
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-size: small;
+  /* background-color: cyan; */
 }
 
 .button {

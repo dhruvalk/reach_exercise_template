@@ -1,6 +1,9 @@
 import React from "react";
 import styles from "./Footer.module.css";
 import { useState } from "react";
+import facebook from "../assets/facebook.png";
+import instagram from "../assets/instagram.png";
+import twitter from "../assets/twitter.png";
 
 export default function Footer() {
   const [show, setShow] = useState(true);
@@ -16,9 +19,20 @@ export default function Footer() {
           <div className={styles.columnComps}>
             <div className={styles.column}>
               <text className={styles.title}>Social Media</text>
-              <text className={styles.body}>Instagram</text>
-              <text className={styles.body}>Facebook</text>
-              <text className={styles.body}>Twitter</text>
+              <div className={styles.socials}>
+                <img className={styles.icon} src={instagram} />
+                <text className={styles.body}>Instagram</text>
+              </div>
+
+              <div className={styles.socials}>
+                <img className={styles.icon} src={facebook} />
+                <text className={styles.body}>Facebook</text>
+              </div>
+
+              <div className={styles.socials}>
+                <img className={styles.icon} src={twitter} />
+                <text className={styles.body}>Twitter</text>
+              </div>
             </div>
 
             <div className={styles.column}>
