@@ -1,4 +1,53 @@
 .card {
   display: flex;
   flex: 1;
+  height: 300px;
+  width: 100%;
 }
+
+.heading{
+  font-weight:bold;
+  font-size: 20px;
+}
+
+.frame{
+  width:inherit;
+  height:inherit;
+}
+
+.gallery {
+  display:flex;
+  width:inherit;
+  height:calc(100% - 27px);
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.step{
+  display:flex;
+  width:fit-content;
+  height:fit-content;
+  align-items: center;
+  padding-bottom: 10px;
+  font-size: 24px;
+}
+
+.button{
+  display:flex;
+  width: 90px;
+  height:fit-content;
+  border-radius: 15px;
+  border: none;
+  justify-content:center;
+  padding-inline: 10px;
+  padding-block: 5px;
+  background-color: green;
+  color: white;
+}
+
+.button:hover{
+  background-color:#54B84E;
+}
+
+
