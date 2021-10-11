@@ -1,4 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+
 .header {
   display: flex;
+  height: 50px;
   background-color: white;
+  align-items: center;
+}
+
+.title{
+  font-family: 'Ephesis', cursive;
+  color: green;
+  align-items: center;
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+.navigation{
+  font-family: "Poppins", sans-serif;
+  margin-left:auto;
+  cursor:pointer;
+  color:black;
+}
+
+.navigationBody{
+  margin:20px;
+}
+
+.navigationBody:hover {
+  color: rgb(97, 97, 97);
 }
